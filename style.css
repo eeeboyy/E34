@@ -1,0 +1,41 @@
+header {
+  font-size: 300%;
+  height: 100px;
+  width: 100%;
+  background: yellow;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background: red;
+  font-size: 300%;
+}
+section{
+  height: 300px;
+  width: 66%;
+  background: blue;
+  font-size: 300%;
+}
+article{
+  height: 600px;
+  width: 34%;
+  background: black;
+  color: red;
+  font-size: 300%;
+  height: 300px;
+  width: 66%;
+  background: black;
+  font-size: 300%;
+}
+aside{
+  height: 300px;
+  width: 66%;
+  background: blue;
+  font-size: 300%;
+}
+footer{
+  font-size: 300%;
+  height: 100px;
+  width: 100%;
+  background: yellow;
+}

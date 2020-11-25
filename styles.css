@@ -1,0 +1,62 @@
+a {
+color: blue;
+text-decoration: none;
+}
+h1 {
+  font-size: 300%;
+  text-align: center;
+  color: green;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 50px;
+}
+
+td, th {
+  border: 1px solid #660066;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.WERKA {
+font-size: 200%;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+  padding: 30px;
+}
+#minu {
+height: 300px;
+width: 100%;
+background: white;
+margin: 10px;
+}
+.hello {
+height: 300px;
+width: 100%;
+background: black;
+color: white;
+padding: 20px;
+}
+.span {
+height: 300px;
+width: 100%;
+background: white;
+color: black;
+padding: 20px;
+}
+.main {
+height: 300px;
+width: 100%;
+background: black;
+color: red;
+padding: 20px;
+}
+#myCanvas {
+border: 1px solid #000000;  
+}

@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en-RU">
+<head>
+<meta charset="UTF-8">
+<title>WOW</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<!-- style="background-color:powderblue;background-image: url('workplace.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;"-->
+<body style="background-color:powderblue;">
+<h1>My First CSS Example</h1><br>
+<hr>
+<p>This is a paragraph.</p><br>
+<hr>
+<a href="#c1">C1</a><br>
+<a href="#c2">C2</a><br>
+<img src="orig.gif" alt="Train" style="width:500px;height:500px;"><br>
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" style="width:400px;height:400px;"><br>
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,370" alt="Computer" href="https://vk.com/" target="_blank" onclick="kreg()">
+  <area shape="rect" coords="290,180,333,263" alt="Phone" href="https://vk.com/" target="_blank" onclick="kreg()">
+  <area shape="circle" coords="339,319,45" onclick="kreg()" href="https://vk.com/" target="_blank">
+</map>
+<script>
+function kreg() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+<img src="frenchfood.jpg" alt="FrenchFood" usemap="#frfood"><br>
+<map name="frfood">
+<area shape="poly" onclick="kreg()" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,65,195,103,161,128,147" href="https://vk.com/" target="_blank">
+</map>
+<pre><p id="demo">Click the button to change the сolour of this paragraph</p>
+<button onclick="myFunction()">Click Me!</button>
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "25px";
+  x.style.color = "red";
+  x.style.background = "black";
+}
+</script>
+<p style="color:red;font-size:500%;">Testing font-size</p>
+<h2> p id="demo" Click the button to change the сolour of this paragraph /p<br>
+button onclick="myFunction()" Click Me! /button<br>
+function myFunction() {<br>
+  var x = document.getElementById("demo");<br>
+  x.style.fontSize = "25px";<br>
+  x.style.color = "red";<br>
+}<br>
+Пишу без галочек, там где они должны быть - пробел</h2>
+<h1>Суть JS такова, что объекту задаётся id, создают тег, который с помощью дальнейшей функции подключают к тегу с id,например,<br>button onclick="ИмяФункции()",а в функции суть такова, что в коде JS создаётся:<br> переменная = &lt;ВидФункции&gt;("id"), а дальше пишут параметры, которые нужны.Пример вышe</h1>
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+<p style="color:yellow;background-color:rgb(255, 99, 71);border:2px solid Violet;width:20%;">Lorem ipsum...</p>
+<p><b>b - Жирный текст</b>
+<strong>strong - Важный текст</strong>
+<i>i - Курсив</i>
+<em>em - Подчеркнутый текст
+<mark>mark - помеченный текст</mark>
+<small>small - меньший текст</small>
+<del>del - удаленный текст</del>
+<ins>ins - вставленный текст</ins>
+<sub>sub - Подстрочный текст</sub>
+<sup>sup - надстрочный текст</sup>
+</em></p><em>
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<h1><bdo dir="rtl">Слава Тебе, Царю, Боже Вседержителю, Иже Божественным Твоим и <br>человеколюбным промыслом, сподобил мя еси, грешнаго <br>и недостойнаго, от сна встати и получити вход святаго дому Твоего:<br>
+прими, Господи, и глас моления моего, якоже святых<br> и умных Твоих сил, и благоволи сердцем чистым, и духом смиренным приносити Тебе хвалу от скверных устен моих,<br> яко да и аз общник буду мудрым девам, со светлою свещею души моея, и славлю Тя во Отце и Дусе славимаго Бога Слова.Аминь.</bdo></h1>
+</em></pre><em>
+<!-- Write your comments here -->
+<address>
+Written by Vova Patenko.<br>
+Visit us at:<br>
+<a href="https://vk.com/id587487489">https://vk.com/id587487489</a><br>
+Box 32,st.Sovetskaya,142,Kostroma<br>
+Russian Federation
+</address>
+<pre>_self- По умолчанию. Открывает документ в том же окне / вкладке, на котором он был нажат
+_blank - открывает документ в новом окне или вкладке
+_parent - открывает документ в родительском фрейме
+_top - открывает документ в полном теле окна
+</pre>
+<pre>rect - определяет прямоугольную область
+circle - определяет круговую область
+poly - определяет полигональную область
+default - определяет весь регион
+</pre>
+<button onclick="document.location='https://vk.com/'" title="Во ВКонтакте я иду.">HTML Tutorial</button>
+<h1 id="c1" style="text-align:center;">WOW1</h1>
+<h1 id="c2" style="text-align:center;">WOW2</h1>
+<table>
+  <tbody><tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</tbody></table>
+<p style="font-size:300%;text-align:center;">Раздел интересных ссылок</p>
+<a class="WERKA" target="_blank" href="https://www.w3schools.com/css/css_background.asp">https://www.w3schools.com/css/css_background.asp</a><br>
+<a class="WERKA" target="_blank" href="https://www.w3schools.com/colors/colors_mixer.asp?colorbottom=F0F8FF&amp;colortop=FFFFFF">Миксер цветов</a><br>
+<a class="WERKA" target="_blank" href="https://www.w3schools.com/">Школа HTML</a><br>
+<a class="WERKA" target="_blank" href="https://www.w3schools.com/tags/default.asp">Известные сайту теги</a><br>
+<a class="WERKA" target="_blank" href="mailto:akinogor_515@mail.com">Написать на почту</a>
+</em>
+</body>
+</html>
